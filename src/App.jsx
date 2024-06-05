@@ -1,10 +1,16 @@
-import './App.css'
-import Navbar from './components/NavBar'
+import React from "react"
+import LeftPhoto from './components/LeftPhoto'
+import RightPhoto from './components/RightPhoto'
+import MiddlePhoto from './components/MiddlePhoto'
+import KnowMore from './components/KnowMore'
 function App() {
 
   return (
     <>
-      <Navbar />
+    <LeftPhoto/>
+    <RightPhoto/>
+    <MiddlePhoto/>
+    <KnowMore/>
     </>
   )
 }
