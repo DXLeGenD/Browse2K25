@@ -1,11 +1,11 @@
 import React from "react";
-import SitLogo from '../assets/sit_logo.jpeg'
+import SitLogo from '../assets/sit_logo.jpg'
 const AboutCollege = () => {
     return (
         <>
             <section className="flex flex-col items-center p-6 bg-gray-800 text-white">
                 <div className="mb-6">
-                    <img src={SitLogo} alt="SIT Logo" className="w-32 h-32" />
+                    <img src={SitLogo} alt="SIT Logo" className="w-32 h-32 object-contain" />
                 </div>
                 <h1 className="text-2xl font-bold mb-4" id="sit">Siddaganga Institute Of Technology</h1>
                 <div className="w-full max-w-4xl mb-6">
